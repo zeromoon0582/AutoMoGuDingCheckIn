@@ -1,18 +1,18 @@
 {
   "config": {
     "user": {
-      "phone": "工学云手机号",
-      "password": "工学云密码"
+      "phone": "18834733454",
+      "password": "Hsj.12518"
     },
     "clockIn": {
       "mode": "daily",
       "location": {
-        "address": "四川省 · 成都市 · 高新区 · 在科创十一街附近",
-        "latitude": "30.559922",
-        "longitude": "104.093023",
-        "province": "四川省",
-        "city": "成都市",
-        "area": "高新区"
+        "address": "山西省太原市小店区建设南路569号碧桂园玖玺臺3号楼1单元3101室",
+        "latitude": "37.826827",
+        "longitude": "112.58669000000002",
+        "province": "山西省",
+        "city": "太原市",
+        "area": "小店区"
       },
       "imageCount": 0,
       "description": [
@@ -21,11 +21,7 @@
         "今天天气不太好"
       ],
       "specialClockIn": false,
-      "customDays": [
-        1,
-        3,
-        5
-      ]
+      "customDays": []
     },
     "reportSettings": {
       "daily": {
@@ -35,7 +31,7 @@
       "weekly": {
         "enabled": true,
         "imageCount": 0,
-        "submitTime": 4
+        "submitTime": 5
       },
       "monthly": {
         "enabled": false,
@@ -45,43 +41,9 @@
     },
     "ai": {
       "model": "gpt-4o-mini",
-      "apikey": "sk-osdhgosdipghpsdgjiosfvinoips",
-      "apiUrl": "https://api.openai.com/"
+      "apikey": "sk-vvjZCFbqAdUAlgvi592eFcD7E7F147Df9bA1233040D65eC3",
+      "apiUrl": "https://free.v36.cm/v1/chat/completions"
     },
-    "pushNotifications": [
-      {
-        "type": "Server",
-        "enabled": true,
-        "sendKey": "your_key"
-      },
-      {
-        "type": "PushPlus",
-        "enabled": true,
-        "token": "your_token"
-      },
-      {
-        "type": "AnPush",
-        "enabled": true,
-        "token": "your_token",
-        "channel": "通道ID,多个用英文逗号隔开",
-        "to": "根据官方文档获取"
-      },
-      {
-        "type": "WxPusher",
-        "enabled": true,
-        "spt": "your_spt"
-      },
-      {
-        "type": "SMTP",
-        "enabled": true,
-        "host": "smtp服务地址",
-        "port": 465,
-        "username": "发件人邮箱",
-        "password": "smtp密码",
-        "from": "发件人名称",
-        "to": "收件人邮箱"
-      }
-    ],
     "device": "{brand: TA J20, systemVersion: 17, Platform: Android, isPhysicalDevice: true, incremental: K23V10A}"
   }
 }
