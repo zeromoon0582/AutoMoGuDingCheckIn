@@ -15,7 +15,7 @@ def generate_article(
     config: Any,
     title: str,
     job_info: Dict[str, Any],
-    count: int = 500,
+    count: int = 300,
     max_retries: int = 3,
     retry_delay: int = 1,
     timeout: int = 600,
@@ -27,7 +27,7 @@ def generate_article(
         config: 配置管理器，负责提供 API 配置。
         title: 文章标题。
         job_info: 工作相关信息字典。
-        count: 字数下限，默认500。
+        count: 字数下限，默认300。
         max_retries: 最大重试次数，默认3。
         retry_delay: 每次重试的延迟时间（秒）。
         timeout: 请求超时时间（秒）。
@@ -66,10 +66,11 @@ def generate_article(
             {
                 "role": "user",
                 "content": (
-                    f"相关资料：报告标题：{title}，"
-                    f"我的岗位是技术咨询"
-                    f"公周报需要包含以下几个部分：工作内容、工作总结、遇到的问题和自我评价。"
-                    f"请在内容上有所创新，避免重复。"
+                   f"请根据以下信息，生成一篇周报。要求每周的周报内容都不同，且字数在300字左右。"
+                    f"我的岗位是技术咨询。"
+                    f"作为一名技术顾问，我的主要工作是为客户提供技术解决方案、解答技术疑问并协助他们解决技术难题。"
+                    f"周报需要包含以下几个部分：本周工作内容、工作总结、遇到的问题和自我评价。"
+                    f"请在内容上有所创新，避免重复，并体现出技术咨询工作的专业性。"
                 ),
             },
         ],
