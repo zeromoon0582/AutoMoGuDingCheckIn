@@ -67,10 +67,9 @@ def generate_article(
                 "role": "user",
                 "content": (
                     f"相关资料：报告标题：{title}，"
-                    f"工作地点：{job_info.get('jobAddress', '未知')}; "
-                    f"公司名：{company_info.get('companyName', '未知')}; "
-                    f"岗位职责：{job_info.get('quartersIntroduce', '未提供')}; "
-                    f"公司所属行业：{company_info.get('tradeValue', '未提供')}"
+                    f"我的岗位是技术咨询"
+                    f"公周报需要包含以下几个部分：工作内容、工作总结、遇到的问题和自我评价。"
+                    f"请在内容上有所创新，避免重复。"
                 ),
             },
         ],
