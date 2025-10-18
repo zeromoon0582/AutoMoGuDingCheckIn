@@ -39,7 +39,7 @@
     },
     "ai": {
       "model": "gpt-4o-mini",
-      "apikey": "sk-vvjZCFbqAdUAlgvi592eFcD7E7F147Df9bA1233040D65eC3",
+      "apikey": "sk-MPT3PYSxNoIMOhk56a06384a9166467aAeF9246dE50c5e5d",
       "apiUrl": "https://free.v36.cm/v1/chat/completions"
     },
     "device": "{brand: TA J20, systemVersion: 17, Platform: Android, isPhysicalDevice: true, incremental: K23V10A}"
